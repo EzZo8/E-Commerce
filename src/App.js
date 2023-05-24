@@ -17,9 +17,9 @@ const App = () => {
   return <div className='overflow-hidden'>
     <Router>
       <Header/>
-      <Routes hashType='slash' basename="/E-Commerce">
-        <Route to='/' element={<Home/>} />
-        <Route to='/product/:id' element={<ProductDetails/>} />
+      <Routes >
+        <Route path='/' element={<Home/>} />
+        <Route path='/product/:id' element={<ProductDetails/>} />
       </Routes>
       <Sidebar/>
       <Footer/>
