@@ -2,7 +2,7 @@
   "name": "ecommerce-shop",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://EzZo8.github.io/E-Commerce",
+  "homepage" : "http://EzZo8.github.io/E-Commerce/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
